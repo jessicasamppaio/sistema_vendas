@@ -1,13 +1,14 @@
-# Sistema de Interações de Aplicação
+# Sistema de Vendas
+Sistema básico exemplificando as interações de uma aplicação desenvolvida a partir do seu banco de dados, contendo diagramas de cada camada do desenvolvimento.
 
-Este repositório contém um sistema básico que exemplifica as interações de uma aplicação desenvolvida a partir de um banco de dados. O projeto é estruturado de forma a demonstrar as diferentes camadas do desenvolvimento, proporcionando uma visão clara e compreensível do fluxo de dados e funcionalidades.
+## Banco de Dados
+O sistema utiliza um banco de dados desenvolvido com o [MySql](https://www.mysql.com/)
 
-## Visão Geral
+### Diagrama
+![image](/docs/diagrama_bd.png)
 
-O sistema é construído seguindo uma arquitetura de camadas, onde cada componente desempenha um papel específico no funcionamento da aplicação. Os principais aspectos incluem:
+## Backend
+-- Reservado para o desenvolvimento em PHP
 
-- **Modelo de Dados**: Definição das entidades e relações presentes no banco de dados.
-- **Camada de Acesso a Dados**: Responsável por interagir diretamente com o banco de dados, executando operações CRUD (Create, Read, Update, Delete).
-- **Lógica de Negócios**: Implementação das regras de negócios da aplicação, processando e manipulando os dados conforme necessário.
-- **Interface de Usuário**: Frontend da aplicação, fornecendo uma interface intuitiva para interação com o sistema.
-
+## Frontend
+-- Reservado para o desenvolvimento em React
